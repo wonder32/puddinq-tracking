@@ -1,0 +1,20 @@
+{
+  "name": "puddinq/puddinq-tracking-system",
+  "description": "puddinq tracking system",
+  "type": "wordpress-plugin",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Stefan Schotvanger",
+      "email": "s.schotvanger@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "autoload": {
+    "psr-4": {
+      "PTS\\": ""
+    }
+  },
+  "require": {
+  }
+}

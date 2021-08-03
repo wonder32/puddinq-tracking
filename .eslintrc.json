@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": ["warn", "windows"],
+    "no-console": "off",
+    "indent": "off",
+    "space-in-parens": ["error", "never"],
+    "object-curly-spacing": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "brace-style": "error"
+  },
+  "extends": [/*"plugin:prettier/recommended",*/ "plugin:@wordpress/eslint-plugin/esnext"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2016,
+    "sourceType": "module"
+  },
+  "globals": {
+    "wp": true,
+    "jQuery": true
+  }
+}

@@ -1,0 +1,13 @@
+
+# project files
+/.idea
+
+# production files
+/assets/dist/
+/assets/src/img/
+
+# node module files
+/node_modules/
+
+# composer files
+/vendor/

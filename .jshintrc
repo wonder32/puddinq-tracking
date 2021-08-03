@@ -1,0 +1,10 @@
+{
+  "undef": true,
+  "browser" : true,
+  "esversion": 6,
+  "unused": true,
+  "node": true,
+  "globals": {
+    "MY_GLOBAL": true
+  }
+}
