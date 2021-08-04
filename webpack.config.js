@@ -13,7 +13,7 @@ const BUILD_DIR = path.resolve(__dirname, 'assets/dist');
 // Change edit these
 const BUILD_DIR_PUBLIC = '/wp-content/plugins/puddinq-tracking/assets/dist';
 const WEBSITE_URL = 'dev.wordpress.nl';
-const SSL_WEBSITE_URL = 'dev.wordpress.nl';
+const SSL_WEBSITE_URL = 'https://dev.wordpress.nl';
 const SSL_KEY = 'C:\\wamp\\bin\\apache\\apache2.4.46\\conf\\key\\dev.wordpress.nlnopass.key';
 const SSL_CERT = 'C:\\wamp\\bin\\apache\\apache2.4.46\\conf\\key\\dev.wordpress.nl.crt';
 
